@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.project {
+  animation: fadeup 0.5s forwards linear;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.project p {
+  font-family: "Mr Dafoe", cursive;
+}
+.project h1 {
+  z-index: 2;
+}
+.project img {
+  z-index: 999;
+}
+
+@keyframes fadeup {
+  0% {
+    opacity: 0;
+    transform: translateY(100px);
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
