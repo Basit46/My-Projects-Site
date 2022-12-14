@@ -3,6 +3,8 @@ import petals from "../images/Petals.jpg";
 import blog from "../images/blog.png";
 import oakparadise from "../images/oakparadise.png";
 import netflix from "../images/netflix2.png";
+import cw from "../images/cw-site.png";
+import antnft from "../images/ant-img.png";
 
 const projectList = [
   {
@@ -29,6 +31,16 @@ const projectList = [
     name: "Netflix Clone",
     img: netflix,
     liveUrl: "https://netflix-clone-by-basit.netlify.app/",
+  },
+  {
+    name: "Color-Wonder Site",
+    img: cw,
+    liveUrl: "https://color-wonder.netlify.app/",
+  },
+  {
+    name: "Ant NFT Fan-Site",
+    img: antnft,
+    liveUrl: "https://antnft.netlify.app/",
   },
 ];
 
